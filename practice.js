@@ -63,12 +63,18 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
+let dog = {
+  name: "Benny",
+  color: "brown",
+  age: 2,
+  goodBoy: true,
+};
 
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -79,7 +85,19 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
-// Code here
+function nameCheck(name){
+  if (name === "Steven"){
+    return `What is up Steven?`;
+  }
+  else if (name === "Bryan") {
+    return `Hey Bryan!`;
+  }
+  else {
+    return `Cool name, ${name}`;
+  }
+}
+
+
 
 //////////////////PROBLEM 11////////////////////
 
