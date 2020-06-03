@@ -2,31 +2,31 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
+let myName = "Aaron";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+let myAge = 30;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+let greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+let devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,15 +35,23 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name) {
+  return `Hell, ${name}`;
+}
+greeting("Aaron");
 
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-//Code Here
-
+function newGreeting(name){
+  return `Hello, ${name}`
+  if (name === " " ){
+    return "undefined";
+  }
+}
+newGreeting();
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
