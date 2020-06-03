@@ -36,7 +36,7 @@ let devMountainGoal = null;
 //plus the value of the name parameter.
 
 function greeting(name) {
-  return `Hell, ${name}`;
+  return `Hello, ${name}`;
 }
 greeting("Aaron");
 
@@ -45,19 +45,16 @@ greeting("Aaron");
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-function newGreeting(name){
+let newGreeting = function(name){
   return `Hello, ${name}`
-  if (name === " " ){
-    return "undefined";
-  }
 }
-newGreeting();
+newGreeting("Lynne");
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -66,7 +63,7 @@ newGreeting();
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
